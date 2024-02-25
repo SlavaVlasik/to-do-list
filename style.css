@@ -1,0 +1,163 @@
+/* Стили для элемента списка задач */
+ul#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Стили для отмеченных задач */
+.checked {
+    text-decoration: line-through;
+}
+
+/* Стили для кнопок внутри элемента списка */
+li button {
+    margin-left: 5px;
+}
+
+/* Стили для входного поля и кнопки */
+#buttonAndInput input[type="text"] {
+    width: calc(100% - 70px);
+    margin-right: 10px;
+}
+
+#buttonAndInput button {
+    width: 60px;
+}
+/* Стили для контейнера */
+.container {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Стили для заголовка */
+.h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Стили для поля ввода и кнопки */
+#buttonAndInput {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    font-size: 18px;
+}
+
+button {
+    width: 60px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Стили для списка задач */
+ul#list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Стили для элемента списка задач */
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Стили для отмеченных задач */
+.checked {
+    text-decoration: line-through;
+}
+
+/* Стили для кнопок внутри элемента списка */
+li button {
+    margin-left: 5px;
+}
+/* Стили для контейнера */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Стили для заголовка */
+.h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Стили для поля ввода и кнопок */
+#buttonAndInput {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4dbfff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3da8ff;
+}
+
+/* Стили для списка задач */
+ul#list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Стили для элемента списка задач */
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для отмеченных задач */
+.checked {
+    text-decoration: line-through;
+}
+/* Стили для заголовка */
+.h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопок */
+button {
+    margin: 10px;
+    width: 150px; /* Увеличиваем ширину кнопки */
+    padding: 12px; /* Увеличиваем отступы внутри кнопки */
+    font-size: 20px; /* Увеличиваем размер шрифта кнопки */
+    border: none;
+    background-color: #4dbfff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* При наведении курсора */
+button:hover {
+    background-color: #3da8ff;
+}
